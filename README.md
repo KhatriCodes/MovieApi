@@ -1,6 +1,6 @@
 **MovieApi**
 
-It is a Main Application Which will call **MovieDetailApi** and **MovieRatingApi** Microservice and collaborate Result
+It is a Main Application Which will call [**MovieDetailApi**](https://github.com/KhatriCodes/MovieDetailApi/tree/develop) and [**MovieRatingApi**](https://github.com/KhatriCodes/MovieRatingApi/tree/develop) Microservice and collaborate Result
 
 **MovieDetailApi** micro service will provice movie name and description of movie.
 
@@ -26,6 +26,3 @@ http://localhost:8085/MovieApi/AnyOtherMovie
 
 Response:
 {"movierating":3,"movieName":"AnyOtherMovie","desc":"Don't have description in data base"}
-
-
-
